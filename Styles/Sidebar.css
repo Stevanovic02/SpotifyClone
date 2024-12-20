@@ -1,0 +1,218 @@
+.MainSidebar{
+    position: fixed;
+    z-index: 100;
+}
+
+
+.SidebarUp{
+    display: flex;
+    position: fixed;
+    width: 420px;
+    height: 156px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border-radius: 10px;
+    flex-direction: column;
+    top: 8px;
+    left: 8px;
+    
+}
+
+.SidebarLink{
+    display: flex;
+    padding: 12px;
+
+}
+
+.SidebarLink a{
+    text-decoration: none;
+}
+
+.SidebarLink img{
+    height: 24px;
+}
+
+.SidebarUpUp img{
+    height: 24px;
+    margin: 20px 0px 0px;
+    padding: 0px 24px;
+}
+
+.SidebarUpDown{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+}
+
+.HomeText{
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.SearchText{
+    font-weight: 700;
+    margin-left: 20px;
+    color: rgb(182, 182, 182);
+}
+
+.SearchTextA{
+    text-decoration: none;
+}
+
+
+
+
+.SidebarDown{
+    position: fixed;
+    width: 420px;
+    
+    background-color: rgb(17, 17, 17);
+    margin-top: 8px;
+    border-radius: 8px;
+    top: 164px;
+    bottom: 82px;
+}
+
+.Library{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 16px 10px 22px;
+    align-items: center;
+}
+
+.Library img{
+    
+}
+
+.LibraryIMG{
+    height: 24px;
+}
+
+
+.LibraryDIV{
+    color: rgb(182, 182, 182);
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 211px;
+}
+
+.Plus path{
+    fill: rgb(182, 182, 182);
+}
+
+
+.Plus{
+    padding: 8px;
+    
+}
+
+
+.Plus:hover{
+    background-color: rgb(19, 19, 19);
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.Cloud1{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 364px;
+    height: 120px;
+    background-color: rgb(37, 37, 37);
+    padding: 4px 16px 10px 20px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 8px;
+    margin
+}
+
+.Cloud1P1{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.Cloud1P2{
+    color: white;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+.Cloud1Button1{
+    width: 130px;
+    height: 32px;
+    font-weight: 700;
+    border-radius: 16px;
+    border-style: none;
+    padding: 4px 16px;
+}
+
+
+.Cloud2{
+    margin-top: 22px;
+    margin-bottom: 133px;
+}
+
+.Cloud1Button2{
+    width: 146px;
+    height: 32px;
+    font-weight: 700;
+    border-radius: 16px;
+    border-style: none;
+    padding: 4px 16px;
+}
+
+
+
+.PRE1 a{
+    text-decoration: none;
+    color: #A7A7A7;
+    font-size: 11px;
+    font-family: Quicksand, Arial;
+}
+
+.PRE2 a{
+    text-decoration: none;
+    color: #A7A7A7;
+    font-size: 11px;
+}
+
+.PRE3 a{
+    text-decoration: none;
+    color: #A7A7A7;
+    font-size: 11px;
+}
+
+
+
+.InfoGrid{
+    margin-top: 162px;
+}
+
+
+
+.InternetIcon{
+    height: 16px;
+    margin-left: 7px;
+}
+
+.ChangeLanguage{
+    display: flex;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    width: 97px;
+    height: 32px;
+    border-style: solid;
+    border-color: #A7A7A7;
+    border-width: 0.01em;
+    border-radius: 16px;
+    margin-left: 20px;
+}
+
+.EnglishP{
+    color: white;
+    font-weight: 700;
+    margin-left: 6px;
+}

@@ -1,0 +1,212 @@
+.Content{
+    position: fixed;
+    
+    background-color: rgb(27, 27, 27);
+    top: 72px;
+    left: 436px;
+    right: 0px;
+    bottom: 81px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: linear-gradient(rgb(32, 32, 32) 0%, rgb(22, 22, 22) 10%, rgb(22, 22, 22) 90%, rgb(27, 27, 27) 100%);
+}
+
+.ContentUp{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ContentUp div{
+    margin: 0px 25px;
+}
+
+.ContentUp a{
+    text-decoration: none;
+}
+
+.ContentUp a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.ContentUp p{
+    margin: 5px 0px 0px 0px;
+}
+
+.SpotifyPlaylists{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ShowAll{
+    color: #a7a7a7;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+
+.PostGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Post1{
+    width: 153px;
+    height: 235px;
+    background-color: rgb(26, 26, 26);
+    background: linear-gradient(rgb(20, 20, 20) 0%, rgb(29, 29, 29) 10%, rgb(24, 24, 24) 90%, rgb(29, 29, 29) 100%);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 19px;
+    margin-left: 25px;
+}
+
+.Post1:hover{
+    background-image: linear-gradient(rgb(48, 48, 48) 0%, rgb(48, 48, 48) 10%, rgb(48, 48, 48) 90%, rgb(48, 48, 48) 100%);
+    cursor: pointer;
+}
+
+.Post{
+    width: 153px;
+    height: 235px;
+    background-color: rgb(26, 26, 26);
+    background: linear-gradient(rgb(20, 20, 20) 0%, rgb(29, 29, 29) 10%, rgb(24, 24, 24) 90%, rgb(29, 29, 29) 100%);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 19px;
+    margin-left: 20px;
+}
+
+.Post:hover{
+    background-image: linear-gradient(rgb(48, 48, 48) 0%, rgb(48, 48, 48) 10%, rgb(48, 48, 48) 90%, rgb(48, 48, 48) 100%);
+    cursor: pointer;
+}
+
+
+.Info{
+    margin-top: 15px;
+}
+
+
+.GeneralInfo{
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:1em;
+}
+
+.Description{
+    margin-top: 10px;
+    color: #a7a7a7;
+    font-size: 13px;
+    line-height:1.6em;
+}
+
+.IMG1{
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+@media (max-width: 750px) {
+    .PostGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width:1000px) {
+    .PostGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1001px) and (max-width:1250px) {
+    .PostGrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1251px) and (max-width:1400px) {
+    .PostGrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1401px) and (max-width:1550px) {
+    .PostGrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+.ContentDown{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.ContentDown div{
+    margin: 40px 25px 20px 25px;
+}
+
+.ContentDown a{
+    text-decoration: none;
+}
+
+.ContentDown a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.ContentDown p{
+    margin: 5px 0px 0px 0px;
+}
+
+
+.Sleep{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+
+.Post2{
+    width: 153px;
+    height: 235px;
+    background-color: rgb(26, 26, 26);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+.Post2:hover{
+    background-color: rgb(48, 48, 48);
+    cursor: pointer;
+}
+
+.Post3{
+    width: 153px;
+    height: 235px;
+    background-color: rgb(26, 26, 26);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.Post3:hover{
+    background-color: rgb(48, 48, 48);
+    cursor: pointer;
+}
+
+
+

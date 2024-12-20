@@ -1,0 +1,129 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: fixed;
+    z-index: 100;
+    align-items: center;
+
+    background-color: rgb(17, 17, 17);
+    height: 64px;
+    top: 8px;
+    right: 0px;
+    left: 436px;
+    
+
+    border-top-left-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
+   
+}
+
+
+.HeaderLeft{
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    margin-left: 22px;
+}
+
+
+.HeaderButton{
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(12, 12, 12);
+}
+
+
+.HeaderButtonText{
+    color: #A7A7A7;
+    margin: 0px;
+    font-family: Quicksand, Arial;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.HeaderRight{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 32px;
+}
+
+.HeaderRight a{
+    text-decoration: none;
+    color: #A7A7A7;
+}
+
+.HeaderRight a:hover{
+    color: white;
+    font-size: 17px;
+}
+
+
+
+.HeaderRightLeft{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.HeaderRightRight{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.HeaderRightLeft div{
+    color: #A7A7A7;
+    padding: 0px 8px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 0px 4px;
+}
+
+
+
+.HeaderRightRight div{
+    color: #A7A7A7;
+    padding: 0px 8px;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+
+.LogIn a{
+    color: black;
+}
+
+
+
+.LogIn{
+    display: flex;
+    background-color: white;
+    border-radius: 32px;
+    border-style: none;
+    width: 110px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.LogInP{
+    font-weight: 700;
+    font-size: 16px;
+    
+    
+}
+
+.VerticalLine{
+    margin-left: 16px;
+    margin-right: 16px;
+}

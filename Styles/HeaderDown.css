@@ -1,0 +1,48 @@
+.HeaderDown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+
+    left: 8px;
+    bottom: 8px;
+    right: 8px;
+    height: 48px;
+    z-index: 100;
+    padding: 11px 24px 7px 15px;
+
+    background-image: linear-gradient(to right, rgb(207, 34, 198) , rgb(69, 162, 238));
+    color: white;
+}
+
+
+.Text1{
+    font-size: 13px;
+}
+
+.Text2{
+    font-weight: 600;
+}
+
+
+.SingUpFreeButton{
+    width: 154px;
+    height: 48px;
+    border-radius: 24px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.SingUpFreeButton:hover{
+    width: 156px;
+    height: 50px;
+}
+
+
+.HeaderDown a{
+    text-decoration: none;
+    color: white;
+}
+
+
